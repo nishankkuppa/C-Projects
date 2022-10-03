@@ -27,7 +27,7 @@ int main()
 	ofile << tempBuffer << endl;
 	ofile.close();
 
-    // Read the text document
+	// Read the text document
 	static char secondBuffer[128];
 	cout << "Below is what was written to text.txt: " << endl;
 	ifstream infile(filename);
