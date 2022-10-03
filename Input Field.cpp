@@ -28,16 +28,16 @@ int main()
 	ofile.close();
 
     // Read the text document
-    static char secondBuffer[128];
-    cout << "Below is what was written to text.txt: " << endl;
-    ifstream infile(filename);
-    infile.getline(secondBuffer, sizeof(secondBuffer));
-    cout << secondBuffer << endl;
-    infile.close();
+	static char secondBuffer[128];
+	cout << "Below is what was written to text.txt: " << endl;
+	ifstream infile(filename);
+	infile.getline(secondBuffer, sizeof(secondBuffer));
+	cout << secondBuffer << endl;
+	infile.close();
 
-    // Delete the text document.
+	// Delete the text document.
 	cout << "Deleting the file now." << endl;
-    remove(filename);
+	remove(filename);
     
 	
 	return 0;
