@@ -1,5 +1,5 @@
 /*
-* A simple C++ program that counts the number of characters in the string.
+* A C++ program that counts the number of characters in the string.
 * Demonstrate the use of strings, loops, and various data types. 
 * 
 * @author Nishank Kuppa
