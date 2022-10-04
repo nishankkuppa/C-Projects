@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
-* A simple program to demonstrate the use of structured data, 
+* A program to demonstrate the use of structured data, 
 * various data types, data handling, qualifiers, pointers,
 * and object oriented programming in C++.
 * 
